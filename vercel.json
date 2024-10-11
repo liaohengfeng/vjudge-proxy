@@ -1,6 +1,6 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "https://vjudge.net/" },
-    { "source": "/*", "destination": "https://vjudge.net/*" }
-  ]
+    "version": 2,
+    "routes": [
+        {"src": "/(.*)", "dest": "https://vjudge.net/$1"}
+    ]
 }
