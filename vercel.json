@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "https://vjudge.net/" },
+    { "source": "/*", "destination": "https://vjudge.net/*" }
+  ]
+}
